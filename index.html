@@ -16,12 +16,38 @@
         }
 
         .starter-template {
-            padding: 40px 40px;
+            padding: 20px;
             margin:0px auto;
-
             background-color: #fffcec;
         }
 
+        .matubi {
+            padding: 15px;
+        }
+
+        .seisakubutu {
+            margin-left: auto;
+            margin-right: auto;
+            whidth: 15em;
+        }
+
+        .subtitle {
+            text-align: center
+        }
+
+        .box29 {
+            margin: 2em 0;
+            background: #F8F8FF;
+        }
+
+        .box29 .box-title {
+            font-size: 1.2em;
+            padding: 4px;
+            font-family: Quicksand,sans-serif;
+            color: #FFF;
+            font-weight: bold;
+            letter-spacing: 0.05em;
+        }
 
     </style>
 </head>
@@ -48,80 +74,100 @@
             <!--/.nav-collapse -->
         </div>
     </nav>
-    
+
+    <br>
+
+    <!--横に3つ並べて書きたい-->
     <div class="container">
-        <div class="starter-template">
-            <h3>プロフィール</h3>
-            <p class="lead">
-
-
-            <!--横に3つ並べて書きたい-->
-            <div class = "row">
-                <div class ="col-sm-4">
-                    名前　　 ： startup-programer<br><br>
-                    実務経験 ： 
-                    未経験<br><br>
-    
-                    言語　　 ： 
-                    Java  （3カ月）<br>
-                    　　　　　   Python（3カ月）<br>
-                </div>
-                <div class ="col-sm-5"></div>
-                <div class ="col-sm-3"><img src = "jpg"></div>
-                <br>
-                <hr>
-                <br>
+        <div class="row starter-template">
+            <div class = "h3 subtitle">プロフィール</div>
+            <div class ="col-sm-4">
+                <p class="lead subtitle">
+                    <div class = "box29 subtitle">
+                        <div class = "box-title" style = "background-color:#B0C4DE;">名　　前</div>
+                        startup-programer<br>
+                    </div>
+                    <div class = "box29 subtitle">
+                        <div class = "box-title" style = "background-color:#9ACD32;">実務経験</div>
+                        未経験<br>
+                    </div>
+                    <div class = "box29 subtitle">
+                        <div class = "box-title" style = "background-color:#F4A460;">言　　語</div>
+                    　   Java  （3カ月）
+                    　   Python（3カ月）
+                    </div>
+                </p>
             </div>
-            <!-- 中央ぞろえにしたい-->
-            <h2 id="PR">PR</h2>
-            <div class = "row">
-                <div class ="col-sm-3">
-                    <p>
-                    <h4>サーティファイJava2級取得</h4>
-                    　　　10月11日に検定二級を取得
+            <div class ="col-sm-5"></div>
+            <div class ="col-sm-3"><img src = "jpg"></div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- 中央ぞろえにしたい-->
+    <div class = "container">
+        <div class = "row starter-template">
+            <div class = "h2 subtitle" id="PR">P R</div>
+            <div class ="col-sm-3">
+                <div class = "box29 subtitle">
+                    <div class = "h4 box-title" style = "background-color:#228B22;">サーティファイJava2級取得</div>
+                    10月11日に検定二級を取得
                 </div>
-                <div class ="col-sm-1"></div>
-                <div class ="col-sm-3">
-                    <p>
-                    <h4>新しい業界へ挑戦</h4><br>
+            </div>
+            <div class ="col-sm-1"></div>
+            <div class ="col-sm-3">
+                <div class = "box29 subtitle">
+                    <div class = "H4 box-title" style = "background-color:#FFD700;">新しい業界へ挑戦</div>
                     未経験の環境で新しい技術を学びます！
                 </div>
-                <div class ="col-sm-1"></div>
-                <div class ="col-sm-3">
-                    <p>
-                    <h5>作業への集中</h5>
+            </div>
+            <div class ="col-sm-1"></div>
+            <div class ="col-sm-3">
+                <div class = "box29 subtitle">
+                    <div class = "H4 box-title" style = "background-color:#9370DB;">作業への集中</div>
                     集中して作業に取り掛かるのが得意です！
                 </div>
             </div>
-            <br>
-            <hr>
-            <br>
-            <!-- 画像を左側に差し込み文字を右側に差し込む   タイトルを右へ移動-->
-            <h3 id="create">制作物</h3>
-            <br>
-            <div class = "row">
-                <div class = "col-sm-7"><a href = "https://github.com/startup-programer/test"><img src= "https://user-images.githubusercontent.com/114842913/196159465-96540f56-f025-49bf-b39c-de4aff9d9534.jpg" close = "img-responsive"></a></div>
-                <div class = "col-sm-1"></div>
-                <div class = "col-sm-5">
-                    <p>
-                       プログラミングスクールで学んだJavaでシューティング
-                       ゲームを作成しました。　使用したのはJavaのFrameで
-                       シューティング画面を作成し、リザルト画面のスコアを
-                       します。
-                    </p>
-                </div>
-            </div>
-            <br>
-            <hr>
-            <br>
-            <h3 id="link">リンク</h3>
-            <p>
-                <a href="https://github.com/startup-programer">Github</a>
-            </p>
-            <div class="row starter-template">
-            <a class="btn btn-secondary" href="#" position="center">Home</a>
         </div>
     </div>
+
+    <br>
+    <br>
+
+    <!-- 画像を左側に差し込み文字を右側に差し込む   タイトルを右へ移動-->
+    <div class = "container">
+        <div class = "row starter-template">
+            <div class = "h2 subtitle"  id="create">制作物</div>
+            <div class = "col-sm-7"><a href = "https://github.com/startup-programer/test"><img src= "https://user-images.githubusercontent.com/114842913/196159465-96540f56-f025-49bf-b39c-de4aff9d9534.jpg" close = "img-responsive"></a></div>
+            <div class = "col-sm-1"></div>
+            <div class = "col-sm-5 eisakubutu">
+                プログラミングスクールで学んだJavaでシューティングゲームを作成しました。
+                使用したのはJavaのFrameで シューティング画面を作成し、
+                リザルト画面のスコアを します。
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- リンク集 -->
+    <div class = "container">
+        <div class = "starter-template">
+            <div class = "h3 subtitle"  id="link">リンク</div>
+            <a href="https://github.com/startup-programer">Github</a>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- ページ末尾　-->
+    <div class = "container">
+        <div class="subtitle matubi">
+            <a class="btn btn-secondary" href="#" position="center">Home</a>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -129,4 +175,3 @@
 </body>
 
 </html>
-

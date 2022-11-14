@@ -28,16 +28,17 @@
         .seisakubutu {
             margin-left: auto;
             margin-right: auto;
-            whidth: 15em;
+            width: 15em;
         }
         
         .imgScale img {
-            whidth : 80%;
-            height : 80%;
+            width : 100%;
+            height : auto;
         }
 
         .subtitle {
-            text-align: center
+            text-align: center;
+            margin: auto;
         }
 
         .box29 {
@@ -53,18 +54,6 @@
             font-weight: bold;
             letter-spacing: 0.05em;
         }
-
-        .testColor1 {
-            background: #F8F8FF;   
-        }    
-        
-       .testColor2 {
-            background: #FfFFF8;   
-        }    
-        
-       .testColor3 {
-            background: #F8F8FF;   
-        }    
         
     </style>
 </head>
@@ -96,9 +85,9 @@
 
     <!--横に3つ並べて書きたい-->
     <div class="container">
-        <div class="row starter-template">
+        <div class="row starter-template imgScale img">
             <div class = "h3 subtitle">プロフィール</div>
-            <div class ="col-sm-4 testColor1">
+            <div class ="col-sm-4">
                 <div class = "box29 subtitle">
                     <div class = "box-title" style = "background-color:#B0C4DE;">名　　前</div>
                         startup-programer<br>
@@ -113,8 +102,10 @@
                     　  Python（3カ月）
                 </div>
             </div>
-            <div class ="col-sm-3 testColor2"></div>
-            <div class ="col-sm-5 imgScale img testColor3"><img src = "Profile.jpg"></div>
+            <div class ="col-sm-3"></div>
+            <div class ="col-sm-5 subtitle">
+                <p>利用環境：ゲーミングノート</p>
+                <img src = "Profile.jpg"></div>
         </div>
     </div>
 
@@ -126,21 +117,21 @@
         <div class = "row starter-template">
             <div class = "h2 subtitle" id="PR">P R</div>
             <div class ="col-sm-3">
-                <div class = "box29 subtitle">
+                <div class = "box29">
                     <div class = "h4 box-title" style = "background-color:#228B22;">サーティファイJava2級取得</div>
                     10月11日に検定二級を取得
                 </div>
             </div>
             <div class ="col-sm-1"></div>
             <div class ="col-sm-3">
-                <div class = "box29 subtitle">
+                <div class = "box29">
                     <div class = "H4 box-title" style = "background-color:#FFD700;">新しい業界へ挑戦</div>
                     未経験の環境で新しい技術を学びます！
                 </div>
             </div>
             <div class ="col-sm-1"></div>
             <div class ="col-sm-3">
-                <div class = "box29 subtitle">
+                <div class = "box29">
                     <div class = "H4 box-title" style = "background-color:#9370DB;">作業への集中</div>
                     集中して作業に取り掛かるのが得意です！
                 </div>
@@ -155,7 +146,10 @@
     <div class = "container">
         <div class = "row starter-template">
             <div class = "h2 subtitle"  id="create">制作物</div>
-            <div class = "col-sm-7 subtitle"><a href = "https://user-images.githubusercontent.com/114842913/196948720-2f9e8dac-15cc-4586-9297-eb596077552c.mp4"><img src= "https://user-images.githubusercontent.com/114842913/196159465-96540f56-f025-49bf-b39c-de4aff9d9534.jpg"></a></div>
+            <div class = "col-sm-7 subtitle">
+
+                <a href = "https://github.com/startup-programer/shooting_game"><img src= "https://user-images.githubusercontent.com/114842913/196159465-96540f56-f025-49bf-b39c-de4aff9d9534.jpg"></a>
+            </div>
             <div class = "col-sm-1"></div>
             <div class = "col-sm-5 eisakubutu">
                 プログラミングスクールで学んだJavaでシューティングゲームを作成しました。
@@ -172,7 +166,7 @@
     <div class = "container">
         <div class = "starter-template">
             <div class = "h3 subtitle"  id="link">リンク</div>
-            <a href="https://startup-programer.github.io/">Github</a>
+            <h5><a href="https://github.com/startup-programer">Github</a></h5>
         </div>
     </div>
 
@@ -189,4 +183,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 
+<!-- bootstrap使用　-->
 </html>
